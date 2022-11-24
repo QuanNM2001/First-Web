@@ -1,0 +1,85 @@
+.navbar{
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    display: flex;
+}
+.navbar-left-selection{
+    margin-left: 50px;
+}
+.navbar-left-selection-text{
+
+}
+.navbar-left-selection li{
+    padding: 10px 5px;
+}
+.fa{
+    margin: 0 2px;
+}
+
+.header-elm{
+    margin-left: 23px;
+    padding-top: 5px;
+}
+
+.header-list-linked{
+    
+}
+.header-list-linked-navbar{
+    color: rgba(104, 107, 110, 0.875);
+}
+.header-list-linked-navbar{
+    float: left;
+    font-size: 12px;
+    margin-top: 2px;
+    margin-right: 8px;
+
+}
+.header-list-linked-select{
+    color: rgb(20, 126, 219);
+    margin-top: 10px;
+    font-size: 12px;
+    padding-top: 2px;
+
+}
+.header-title{
+    padding-top: 5px; 
+    font-size: 25px; 
+}
+
+.container-title{
+    font-size: 17px;
+}
+.container-option{
+    display: flex;
+    font-size: 15px;
+}
+.container-option-status{
+    cursor: pointer;
+}
+.container-option-filter{
+    cursor: pointer;
+}
+.container-option-search{
+    cursor: pointer;
+}
+.container-option-btn-add{
+    position: absolute;
+    right: 50px;
+}
+.btn-add{
+    background-color: #1890ff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}
+.container-table{
+    display: block;
+}
