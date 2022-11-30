@@ -1,87 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
     <div class="navbar">
-      <div class="navbar-left">
-        <div class="navbar-left-logo"></div>
-        <div class="navbar-left-selection">
-          <ul>
-            <li class="fa fa-home">Các Danh mục</li>
-            <li class="fa fa-home">Đối Tác</li>
-            <li class="fa fa-home">Khách Hàng</li>
-            <li class="fa fa-home">Cấu Hình Hệ Thống</li>
-          </ul>
+        <div class="navbar-left">
+            <div class="navbar-left-logo"></div>
+            <div class="navbar-left-selection">
+                <ul>
+                    <li class="fa fa-home">Các Danh mục</li>
+                    <li class="fa fa-home">Đối Tác</li>
+                    <li class="fa fa-home">Khách Hàng</li>
+                    <li class="fa fa-home">Cấu Hình Hệ Thống</li>
+                </ul>
+            </div>
         </div>
-      </div>
-      <div class="navbar-right">
-        <div class="navbar-right-zoom">
+        <div class="navbar-right">
+            <div class="navbar-right-zoom">
+            </div>
+            <div class="navbar-right-notify">
+                <i class="fa fa-bell"></i>
+            </div>
+            <div class="navbar-right-avatar"></div>
+            <div class="navbar-right-menu">
+            </div>
         </div>
-        <div class="navbar-right-notify">
-            <i class="fa fa-bell"></i>
-        </div>
-        <div class="navbar-right-avatar"></div>
-        <div class="navbar-right-menu">
-        </div>
-      </div>
     </div>
     <div class="header">
-      <div class="header-elm">
-        <div class="header-list-linked">
-          <div class="header-list-linked-navbar">
-            <span>Đối tác / </span>
-          </div>
-          <div class="header-list-linked-select">
-            <span><strong>Nhãn hiệu</strong></span>
-          </div>
+        <div class="header-elm">
+            <div class="header-list-linked">
+                <div class="header-list-linked-navbar">
+                    <span>Đối tác / </span>
+                </div>
+                <div class="header-list-linked-select">
+                    <span><strong>Nhãn hiệu</strong></span>
+                </div>
+            </div>
+            <div class="header-title">
+                <span>Nhãn hiệu</span>
+            </div>
         </div>
-        <div class="header-title">
-          <span>Nhãn hiệu</span>
-        </div>
-      </div>
     </div>
     <div class="container">
-      <div class="container-title">
-        <span>Danh sách nhãn hiệu</span>
-      </div>
-      <div class="container-option">
-        <div class="container-option-status">
-          <span>Trạng Thái</span>
+        <div class="container-title">
+            <span>Danh sách nhãn hiệu</span>
         </div>
-        <div class="container-option-filter">
-          <i class="fa fa-filter"></i>
+        <div class="container-option">
+            <div class="container-option-status">
+                <span>Trạng Thái</span>
+            </div>
+            <div class="container-option-filter">
+                <i class="fa fa-filter"></i>
+            </div>
+            <div class="container-option-search">
+                <i class="fa fa-search"></i>
+            </div>
+            <div class="container-option-btn-add">
+                <button class="btn-add">Thêm mới <i class="fa fa-plus"></i></button>
+            </div>
         </div>
-        <div class="container-option-search">
-          <i class="fa fa-search"></i>
+        <div class="container-table">
+            <table width="90%" border=1>
+                <tr>
+                    <th><input type="checkbox"></input>
+                    </th>
+                    <th class="table table-id">Mã nhãn hiệu</th>
+                    <th class="table table-name">Tên nhãn hiệu</th>
+                    <th class="table table-time">Thời gian cập nhật</th>
+                    <th class="table table-stasus">Trạng thái</th>
+                    <th class="table-select"></th>
+                </tr>
+            </table>
         </div>
-        <div class="container-option-btn-add">
-          <button class="btn-add">Thêm mới <i class="fa fa-plus"></i></button>
-        </div>
-      </div>
-      <div class="container-table">
-        <table width="1330px" border=1>
-          <tr>
-            <th><input type="checkbox"></input></th>
-            <th>Mã nhãn hiệu</th>
-            <th>Tên nhãn hiệu</th>
-            <th>Thời gian cập nhật</th>
-            <th>Trạng thái</th>
-            <th></th>
-          </tr>
-        </table>
-      </div>
     </div>
     <div class="footer"></div>
-  </body>
+</body>
+
 </html>

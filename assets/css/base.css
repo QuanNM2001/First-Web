@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     width: 100%;
     height: 45px;
     background-color: black;
@@ -6,70 +6,79 @@
     font-size: 15px;
     display: flex;
 }
-.navbar-left-selection{
+
+.navbar-left-selection {
     margin-left: 50px;
 }
-.navbar-left-selection-text{
 
-}
-.navbar-left-selection li{
+.navbar-left-selection-text {}
+
+.navbar-left-selection li {
     padding: 10px 5px;
 }
-.fa{
+
+.fa {
     margin: 0 2px;
 }
 
-.header-elm{
+.header-elm {
     margin-left: 23px;
     padding-top: 5px;
 }
 
-.header-list-linked{
-    
-}
-.header-list-linked-navbar{
+.header-list-linked {}
+
+.header-list-linked-navbar {
     color: rgba(104, 107, 110, 0.875);
 }
-.header-list-linked-navbar{
+
+.header-list-linked-navbar {
     float: left;
     font-size: 12px;
     margin-top: 2px;
     margin-right: 8px;
-
 }
-.header-list-linked-select{
+
+.header-list-linked-select {
     color: rgb(20, 126, 219);
     margin-top: 10px;
     font-size: 12px;
     padding-top: 2px;
-
-}
-.header-title{
-    padding-top: 5px; 
-    font-size: 25px; 
 }
 
-.container-title{
+.header-title {
+    padding-top: 5px;
+    font-size: 25px;
+}
+
+.container-title {
     font-size: 17px;
 }
-.container-option{
+
+.container-option {
     display: flex;
     font-size: 15px;
+    height: 35px;
 }
-.container-option-status{
+
+.container-option-status {
     cursor: pointer;
 }
-.container-option-filter{
+
+.container-option-filter {
     cursor: pointer;
 }
-.container-option-search{
+
+.container-option-search {
     cursor: pointer;
 }
-.container-option-btn-add{
+
+.container-option-btn-add {
     position: absolute;
     right: 50px;
 }
-.btn-add{
+
+.btn-add {
     background-color: #1890ff;
     border: none;
     color: white;
@@ -80,6 +89,9 @@
     font-size: 12px;
     cursor: pointer;
 }
-.container-table{
-    display: block;
+
+.container-table {}
+
+.table {
+    text-align: left;
 }
