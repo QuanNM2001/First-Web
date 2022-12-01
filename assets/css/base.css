@@ -95,3 +95,38 @@
 .table {
     text-align: left;
 }
+.table-btn{
+    text-align: center;
+}
+#drawer{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.new-drawer-child{
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    top: 0;
+    right: 0;
+}
+.drawer-header{
+    position: absolute;
+    top: 5px;
+}
+.drawer-title{
+    position: fixed;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.close-btn{
+    position: fixed;
+    right: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="assets/js/index.js"></script>
 </head>
 
 <body>
@@ -65,13 +66,13 @@
                 <i class="fa fa-search"></i>
             </div>
             <div class="container-option-btn-add">
-                <button class="btn-add">Thêm mới <i class="fa fa-plus"></i></button>
+                <button class="btn-add" onclick="openDrawer()">Thêm mới <i class="fa fa-plus"></i></button>
             </div>
         </div>
         <div class="container-table">
-            <table width="90%" border=1>
+            <table width="96.3%" border=1>
                 <tr>
-                    <th><input type="checkbox"></input>
+                    <th class="table-btn btn-checkbox"><input type="checkbox"></input>
                     </th>
                     <th class="table table-id">Mã nhãn hiệu</th>
                     <th class="table table-name">Tên nhãn hiệu</th>
@@ -79,10 +80,29 @@
                     <th class="table table-stasus">Trạng thái</th>
                     <th class="table-select"></th>
                 </tr>
+                <tr>
+                    <td class="table-btn btn-checkbox"><input type="checkbox"></td>
+                    <td>123</td>
+                    <td>test</td>
+                    <td>
+                        <span id="datetime" >
+                            
+                        </span>
+                    </td>
+                    <td>Đang hoạt động</td>
+                    <td class="table-btn btn-select"><span>test</span></td>
+                </tr>
             </table>
         </div>
     </div>
-    <div class="footer"></div>
+    <div id="drawer" class="new-drawer">
+        <div id="drawer-child" class="new-drawer-child">
+            <div class="drawer-header">
+                <span class="drawer-title">Thêm mới</span>
+                <a href="javascript:void(0)" class="close-btn" onclick="closeDrawer()">&times;</a>
+            </div>
+        </div> 
+    </div>
 </body>
 
 </html>
