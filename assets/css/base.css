@@ -79,7 +79,7 @@
 }
 
 .btn-add {
-    background-color: #1890ff;
+    background-color: #2196F3;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -125,8 +125,38 @@
 }
 .close-btn{
     position: fixed;
-    right: 25px;
+    right: 20px;
     font-size: 20px;
     text-decoration: none;
     color: black;
+}
+.drawer-container{
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+.drawer-footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+}
+.btn-drawer-close{
+    background-color: black;
+    color: white;
+}
+.btn-drawer-save{
+    background-color: #2196F3;
+    color: white;
+}
+.btn-footer{
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+}
+.btn-footer span{
+   position: relative; 
+   top: 8px;
+   left: 10px;
+   font-size: 13px;
 }

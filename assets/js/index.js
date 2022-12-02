@@ -12,10 +12,13 @@ window.onload = function() {
 }
 function openDrawer(){
     document.getElementById("drawer").style.display = "block";
-    document.getElementById("drawer-child").style.width = "250px";
+    document.getElementById("drawer-child").style.width = "300px";
 
 }
 function closeDrawer(){
     document.getElementById("drawer").style.display = "none";
     document.body.style.backgroundColor = "white";
+}
+function exitDrawer(){
+
 }
