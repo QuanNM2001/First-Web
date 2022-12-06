@@ -95,18 +95,20 @@
 .table {
     text-align: left;
 }
-.table-btn{
+
+.table-btn {
     text-align: center;
 }
-#drawer{
+
+#drawer {
     display: none;
     position: fixed;
     z-index: 1;
     inset: 0;
     background-color: rgba(0, 0, 0, 0.5);
-
 }
-.new-drawer-child{
+
+.new-drawer-child {
     height: 100%;
     position: absolute;
     z-index: 2;
@@ -114,49 +116,109 @@
     top: 0;
     right: 0;
 }
-.drawer-header{
+
+.drawer-header {
     position: absolute;
     top: 5px;
 }
-.drawer-title{
+
+.drawer-title {
     position: fixed;
     margin-top: 5px;
     margin-left: 5px;
 }
-.close-btn{
+
+.close-btn {
     position: fixed;
     right: 20px;
     font-size: 20px;
     text-decoration: none;
     color: black;
 }
-.drawer-container{
+
+.drawer-container {
     position: relative;
     top: 50px;
     left: 10px;
 }
-.drawer-footer{
+
+.input {
+    margin-top: 20px;
+}
+
+.drawer-footer {
     position: absolute;
     bottom: 0;
     display: flex;
     width: 100%;
 }
-.btn-drawer-close{
+
+.btn-drawer-close {
     background-color: black;
     color: white;
 }
-.btn-drawer-save{
+
+.btn-drawer-save {
     background-color: #2196F3;
     color: white;
 }
-.btn-footer{
+
+.btn-footer {
     width: 50%;
     height: 50px;
     cursor: pointer;
 }
-.btn-footer span{
-   position: relative; 
-   top: 8px;
-   left: 10px;
-   font-size: 13px;
+
+.btn-footer span {
+    position: relative;
+    top: 8px;
+    left: 10px;
+    font-size: 13px;
+}
+
+.form-input {
+    padding: 12px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 90%;
+    background-color: rgb(235, 235, 235);
+}
+
+.btn-status input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 50px;
+    height: 30px;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+label:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+input:checked+label {
+    background: rgb(20, 126, 219);
+}
+
+input:checked+label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
 }

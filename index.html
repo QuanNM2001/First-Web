@@ -85,7 +85,7 @@
                     <td>123</td>
                     <td>test</td>
                     <td>
-                        <span id="datetime" >
+                        <span id="datetime">
                             
                         </span>
                     </td>
@@ -102,19 +102,23 @@
                 <a href="javascript:void(0)" class="close-btn" onclick="closeDrawer()">&times;</a>
             </div>
             <div class="drawer-container">
-                <div class="input-id">
+                <div class="input input-id">
                     <p>Mã nhãn hiệu<span style="color: red;">*</span></p>
                     <input type="text" class="form-input" placeholder="Nhập mã nhãn hiệu" name="input-id">
                 </div>
-                <div class="input-name">
+                <div class="input input-name">
                     <p>Tên nhãn hiệu<span style="color: red;">*</span></p>
                     <input type="text" class="form-input" placeholder="Nhập tên nhãn hiệu" name="input-name">
                 </div>
-                <div class="input-description">
+                <div class="input input-description">
                     <p>Mô tả<span style="color: red;">*</span></p>
                     <input type="text" class="form-input" placeholder="Nhập mô tả" name="input-description">
                 </div>
-                <div class="btn-status"></div>
+                <div class="input btn-status">
+                    <span>Trạng thái</span>
+                    <input type="checkbox" id="switch" />
+                    <label for="switch">Toggle</label>
+                </div>
             </div>
             <div class="drawer-footer">
                 <div class="btn-footer btn-drawer-close" onclick="closeDrawer()">
@@ -124,7 +128,7 @@
                     <a><span>Lưu</span></a>
                 </div>
             </div>
-        </div> 
+        </div>
     </div>
 </body>
 
