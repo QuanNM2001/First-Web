@@ -25,3 +25,9 @@ function closeDrawer(event) {
     } else
         noClose = false;
 }
+function clickCheckboxAll(source){
+    checkboxes = document.getElementsByName('btn-checkbox');
+    for(var i=0, n=checkboxes.length;i<n;i++) {
+      checkboxes[i].checked = source.checked;
+    }
+}

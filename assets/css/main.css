@@ -3,10 +3,14 @@
     margin: 0;
     box-sizing: border-box;
     font-family: IBM Plex Sans;
+    overflow: inherit;
 }
 @font-face {
     font-family: IBM Plex Sans;
     src: url(/assets/font/IBMPlexSans-Regular.ttf);
+}
+body{
+    overflow: hidden;
 }
 
 .header{

@@ -31,8 +31,11 @@
             <div class="navbar-right-notify">
                 <i class="fa fa-bell"></i>
             </div>
-            <div class="navbar-right-avatar"></div>
+            <div class="navbar-right-avatar">
+                <img src="/assets/img/img-ship.png" alt="avt">
+            </div>
             <div class="navbar-right-menu">
+                <span>...</span>
             </div>
         </div>
     </div>
@@ -72,7 +75,7 @@
         <div class="container-table">
             <table>
                 <tr>
-                    <th class="table-btn btn-checkbox"><input type="checkbox"></input>
+                    <th class="table-btn btn-checkbox"><input id="btn-checkbox-all" type="checkbox" onclick="clickCheckboxAll(this)"></input>
                     </th>
                     <th class="table table-id">Mã nhãn hiệu</th>
                     <th class="table table-name">Tên nhãn hiệu</th>
@@ -81,7 +84,7 @@
                     <th class="table-select"></th>
                 </tr>
                 <tr class="table-row">
-                    <td class="table-btn btn-checkbox"><input type="checkbox"></td>
+                    <td class="table-btn btn-checkbox"><input name="btn-checkbox" type="checkbox"></td>
                     <td>123</td>
                     <td>test</td>
                     <td>
@@ -97,7 +100,7 @@
                     
                 </tr>
                 <tr class="table-row">
-                    <td class="table-btn btn-checkbox"><input type="checkbox"></td>
+                    <td class="table-btn btn-checkbox"><input name="btn-checkbox" type="checkbox"></td>
                     <td>1</td>
                     <td>test</td>
                     <td>
@@ -113,7 +116,7 @@
                     
                 </tr>
                 <tr class="table-row">
-                    <td class="table-btn btn-checkbox"><input type="checkbox"></td>
+                    <td class="table-btn btn-checkbox"><input name="btn-checkbox" type="checkbox"></td>
                     <td>112</td>
                     <td>test</td>
                     <td>
@@ -129,7 +132,7 @@
                     
                 </tr>
                 <tr class="table-row">
-                    <td class="table-btn btn-checkbox"><input type="checkbox"></td>
+                    <td class="table-btn btn-checkbox"><input name="btn-checkbox" type="checkbox"></td>
                     <td>31</td>
                     <td>test</td>
                     <td>
@@ -138,14 +141,14 @@
                         </span>
                     </td>
                     <td>
-                        <span class="dot-status"></span>
-                        <p>Dừng hoạt động</p>
+                        <span class="dot-status" style="background-color: green;"></span>
+                        <p>Hoạt động</p>
                     </td>
                     <td class="table-btn btn-select"><span style="cursor: pointer;">...</span></td>
                     
                 </tr>
                 <tr class="table-row">
-                    <td class="table-btn btn-checkbox"><input type="checkbox"></td>
+                    <td class="table-btn btn-checkbox"><input name="btn-checkbox" type="checkbox"></td>
                     <td>123</td>
                     <td>test</td>
                     <td>
@@ -161,7 +164,7 @@
                     
                 </tr>
                 <tr class="table-row">
-                    <td class="table-btn btn-checkbox"><input type="checkbox"></td>
+                    <td class="table-btn btn-checkbox"><input name="btn-checkbox" type="checkbox"></td>
                     <td>123</td>
                     <td>test</td>
                     <td>
@@ -177,7 +180,7 @@
                     
                 </tr>
                 <tr class="table-row">
-                    <td class="table-btn btn-checkbox"><input type="checkbox"></td>
+                    <td class="table-btn btn-checkbox"><input name="btn-checkbox" type="checkbox"></td>
                     <td>123</td>
                     <td>test</td>
                     <td>
@@ -193,7 +196,7 @@
                     
                 </tr>
                 <tr class="table-row">
-                    <td class="table-btn btn-checkbox"><input type="checkbox"></td>
+                    <td class="table-btn btn-checkbox"><input name="btn-checkbox" type="checkbox"></td>
                     <td>123</td>
                     <td>test</td>
                     <td>
@@ -209,7 +212,7 @@
                     
                 </tr>
                 <tr class="table-row">
-                    <td class="table-btn btn-checkbox"><input type="checkbox"></td>
+                    <td class="table-btn btn-checkbox"><input name="btn-checkbox" type="checkbox"></td>
                     <td>123</td>
                     <td>test</td>
                     <td>
@@ -225,6 +228,39 @@
                     
                 </tr>
             </table>
+        </div>
+        <div class="pagination">
+            <div class="pagination-left">
+                <p>Items per pages: </p>
+                <div class="pagination-left-select">
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option selected="selected">10</option>
+                    </select>
+                </div>
+                <span>1-10 of 37 items</span>
+            </div>
+            <div class="pagination-right">
+                <div class="pagination-right-select">
+                    <select name="" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                    </select>
+                </div>
+                <span>of 4 pages</span>
+                <i class="fa-solid fa-chevron-left"></i>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
         </div>
     </div>
     <div id="drawer" class="new-drawer" onclick="closeDrawer(this)">
